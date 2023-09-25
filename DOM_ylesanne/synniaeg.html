@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sünniaeg</title>
+</head>
+<body>
+    <h1>Sünniaeg</h1>
+    <a href="avaleht.html">Tagasi avalehele</a>
+    <br>
+    <div id="andmed"></div>
+    <br>
+    <div>
+        Nimi: <input type="text" id="nimiInput">
+        Sünniaeg: <input type="date" min="1900-01-01" max="today" id="synniaegInput">
+        <input type="button" onclick="getInput()" value="Submit">
+    </div>
+    <script src="synniaeg_vanus.js"></script>
+</body>
+</html>

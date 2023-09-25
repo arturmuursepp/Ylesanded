@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tooted</title>
+</head>
+<body>
+    <h1>Tooted</h1>
+    <a href="avaleht.html">Tagasi avalehele</a>
+    <br>
+    <br>
+    <div>
+        <h3>Sisu</h3>
+        <input type="button" value="Kuva sisu" onclick="getInputKuvaSisu()">
+        <div id="tooted"></div>
+    </div>
+
+    <div>
+        <h3>Toote lisamine</h3>
+        Nimi: <br> <input type="text" id="nimi"> <br>
+        Hind: <br> <input type="text" id="hind"> <br>
+        Kogus: <br> <input type="text" id="kogus">
+        <input type="button" value="Lisa toode" onclick="getInputLisaToode()">
+    </div>
+    <br>
+    <div>
+        <h3>Toodete kogusumma</h3>
+        <input type="button" value="Kogu Summa" onclick="getInputKoguSumma()">
+        <div id="kogusumma"></div>
+    </div>
+
+    <script src="tooted.js"></script>
+</body>
+</html>
